@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box  ;
+    margin: 10;
+    padding: 0;
+}
+#grid {
+    display: grid;
+    
+}
+.grid-container { 
+    display: grid;
+    height: 100vh;
+    width: auto;
+    gap: 5px;
+    grid-template-areas: 
+    "Logo Logo head"
+    "main main main"
+    "footer footer footer";
+    grid-template-columns: 1fr 3fr 200px;
+    grid-template-rows: auto;
+
+    }
+.head {
+    grid-template-rows: 0px 200px 100px;
+}
+.lista {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-self: center;
+}
+body div head {
+    grid-area: head;
+    text-align: center;
+    text-justify: center;
+}
+body main { 
+    grid-area: main;    
+}
+body footer { 
+    grid-area: footer;
+}
+.grid-container1 { 
+    display: grid;
+    height: 100vh;
+    gap: 5px;
+    grid-template-areas: 
+    "head"
+    "tit"
+    "main"
+    "footer";
+    grid-template-rows: 1fr 2fr 1fr 1 fr;
+    }
+#grilla { display: grid;}
+@media (max-width: 600px) { 
+    .grid-container {
+        background-color: black;
+        color: white;
+    }
+    .text {
+        color: white;
+    }
+    .grid-container ul li a{
+        color: white;
+    }
+    .grid-container footer a {
+        color: black;
+    }
+    .grid-container footer {
+        background-color: white;
+    }
+}
+
+.carousel {
+    margin-left: 530px;
+}
+.carousel-control-prev {
+    margin-left: -50px;
+}
+.carousel-control-next {
+    margin-right: 520px;
+}
+body {
+    background-color: white;
+    color: black   ;
+}
+.main {
+    text-align: center;
+}
+.urbana {
+    margin-left: 570px;
+    background-image: linear-gradient(right);
+}
+.urbana:hover {
+    transform: rotate(10deg);
+    transition: all 2s;
+}
+.hipopotamos:hover {
+    width: 300;
+    height: 250;
+    font-size: 30px;
+}
+ul {
+    margin-left: 1000px;
+}
+ul li{
+    display: inline;
+    margin-left: 20px;
+    color: black;
+    
+}
+ul li a{
+    color: black;
+}
+.text {
+    margin-left: 400px;
+    margin-right: 200px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: yellow;
+    border: 5px solid black;
+    text-align: center;
+}
+footer { 
+    background-color: black;
+    height: 100px;
+    width: auto;
+}
+footer a {
+    color: white;
+    margin-left: 50px;
+}
+a {
+    text-decoration: none;
+}
+.box.absolute { 
+    background-color: #25d366;
+    position: fixed;
+    width: 130px;
+    height: 60px;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+    padding: auto;
+
+}
+.form {
+    border: 5px solid black;
+    margin-right: 400px;
+    text-align: left;
+
+}
+.p {
+    margin-left: 200px;
+    margin-right: 150px;  
+}
+.tit { 
+    margin-left: 550px;
+    
+}
+.proceso {
+    margin-left: 40px;
+    
+}
+.tit2 { 
+    margin-left: 330px;
+}
+.home { 
+    margin-left: 650px;
+}
+.tit3 {
+    margin-left: 500px;
+    text-decoration: underline;
+}
+.subtit {
+    margin-left: 470px;
+}
+.main .form { 
+    margin-left: 410px;
+}
+.tit4 {
+    margin-left: 590px;
+    text-decoration: underline;
+}
+.subtit1 {
+    margin-left: 555px;
+}
+.home1 {
+    margin-left: 650px;
+}
